@@ -7,5 +7,5 @@ URL Shortener Service — это микросервис, который позв
 Структура классов: ![img.png](img.png)
 
 Инструкция: запустить файл docker-compose.
-    1. POST-запрос: посылать на адрес http://localhost:8080/short-url, в body передать JSON вида {"url" : "https://pomodoro-tracker.com/"}
-    2. GET-запрос: посылать на адрес http://localhost:8080/short-url/{полученный из post запроса хэш}
+1. POST-запрос: посылать на адрес http://localhost:8080/short-url, в body передать JSON вида {"url" : "https://pomodoro-tracker.com/"}
+2. GET-запрос: посылать на адрес http://localhost:8080/short-url/{полученный из post запроса хэш}
